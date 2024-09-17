@@ -25,9 +25,9 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
 android {
-    if (project.android.hasProperty("namespace")) {
-        namespace 'me.liolin.app_badge_plus'
-    }
+   
+    namespace 'me.liolin.app_badge_plus'
+    
 
     compileSdk 34
 
